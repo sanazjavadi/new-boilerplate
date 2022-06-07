@@ -7,7 +7,8 @@ module.exports = {
     extensions: ['.tsx', '.ts', '.js'],
   },
   module: {
-    rules:       [
+    rules:      
+     [
       {
         test: /\.(ts|js)x?$/,
         exclude: /node_modules/,

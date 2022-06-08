@@ -1,6 +1,6 @@
-const webpack = require('webpack');
-const bundleAnalyzerPlugin =
-  require('webpack-bundle-analyzer').bundleAnalyzerPlugin;
+const webpack = require('webpack')
+const BundleAnalyzerPlugin =
+  require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
 module.exports = {
   mode: 'production',
@@ -9,6 +9,6 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env.name': JSON.stringify('codevolution'),
     }),
-    new bundleAnalyzerPlugin(),
+    new BundleAnalyzerPlugin(),
   ],
-};
+}

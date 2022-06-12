@@ -1,0 +1,23 @@
+body {
+  background: #1f0a3d;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: beige;
+}
+
+h1,
+h2,
+h3 {
+  color: orange;
+  text-align: center;
+}
+
+p {
+  color: azure;
+  text-align: center;
+}
